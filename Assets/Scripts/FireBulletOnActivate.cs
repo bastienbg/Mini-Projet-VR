@@ -1,11 +1,15 @@
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
+using UnityEngine.VFX;
 
 public class FireBulletOnActivate : MonoBehaviour
 {
     public GameObject bullet;
     public Transform spawnPoint;
     public float fireSpeed = 20;
+
+    public VisualEffect muzzleFlash;
+    public float muzzleFlashLifetime = 0.1f;
 
     // Start is called before the first frame update
     void Start()
@@ -26,5 +30,10 @@ public class FireBulletOnActivate : MonoBehaviour
         spawnedBullet.transform.position = spawnPoint.position;
         spawnedBullet.GetComponent<Rigidbody>().linearVelocity = spawnPoint.forward * fireSpeed;
         Destroy(spawnedBullet, 5);
+
+        if (muzzleFlash != null)
+        {
+            muzzleFlash.Play();
+        }
     }
 }
