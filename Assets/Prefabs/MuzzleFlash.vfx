@@ -165,7 +165,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.AABox, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"center":{"x":0.0,"y":0.0,"z":0.0484929084777832},"size":{"x":0.009999999776482582,"y":0.009999999776482582,"z":0.20000000298023225}}'
+      m_SerializableObject: '{"center":{"x":0.0,"y":0.0,"z":0.06445503234863281},"size":{"x":0.009999999776482582,"y":0.009999999776482582,"z":0.29812994599342348}}'
     m_Space: 0
   m_Property:
     name: bounds
@@ -190,10 +190,10 @@ MonoBehaviour:
   - title: Minimal
     position:
       serializedVersion: 2
-      x: -14
+      x: -192
       y: -493
-      width: 1203
-      height: 1546
+      width: 1382
+      height: 1865
     contents:
     - model: {fileID: 114023846229194376}
       id: 0
@@ -232,9 +232,9 @@ MonoBehaviour:
   categories: []
   uiBounds:
     serializedVersion: 2
-    x: -14
+    x: -192
     y: -493
-    width: 1203
+    width: 1382
     height: 1865
 --- !u!114 &114350483966674976
 MonoBehaviour:
@@ -378,7 +378,7 @@ MonoBehaviour:
   - {fileID: 114780028408030698}
   - {fileID: 114063133802684794}
   dataType: 0
-  capacity: 300
+  capacity: 100
   stripCapacity: 16
   particlePerStripCount: 16
   needsComputeBounds: 0
@@ -2401,7 +2401,7 @@ MonoBehaviour:
       inputSlot: {fileID: 8926484042661614644}
     - outputSlot: {fileID: 8926484042661614629}
       inputSlot: {fileID: 8926484042661614645}
-    position: {x: 12, y: 388.80002}
+    position: {x: -166.40001, y: 408}
     expandedSlots:
     - {fileID: 8926484042661614627}
     expanded: 1
